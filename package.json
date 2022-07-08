@@ -1,0 +1,24 @@
+{
+  "name": "my-telegram-bot",
+  "version": "1.0.0",
+  "description": "My first telegram bot on JS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MitrixD/my-telegram-bot.git"
+  },
+  "author": "MitrixD",
+  "license": "ISC",
+  "homepage": "https://github.com/MitrixD/my-telegram-bot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.58.0",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
