@@ -16,7 +16,10 @@
   "homepage": "https://github.com/MitrixD/my-telegram-bot#readme",
   "dependencies": {
     "node-telegram-bot-api": "^0.58.0",
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.2"
   },
   "devDependencies": {
     "prettier": "^2.7.1"
